@@ -16,7 +16,7 @@
     "email": "ofnullable@gmail.com"
   },
   "scripts": {
-    "start": "NODE_ENV=development webpack serve --progress",
+    "start": "webpack serve --progress",
     "build": "NODE_ENV=production webpack",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
